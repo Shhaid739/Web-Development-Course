@@ -1,6 +1,8 @@
 const box1 = document.getElementById('box-1');
 // box1.innerHTML = "<h1>Hello</h1> <p> Hello World</p>"
 
+//shahid
+
 box1.style.backgroundColor = "red"
 
 const boxes = document.getElementsByClassName('box');
