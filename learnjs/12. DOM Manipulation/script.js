@@ -3,6 +3,7 @@ const box1 = document.getElementById('box-1');
 
 box1.style.backgroundColor = "red"
 
+//this is written by shahid
 const boxes = document.getElementsByClassName('box');
 
 for(let i = 0; i<boxes.length; i++) {
