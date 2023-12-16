@@ -1,4 +1,5 @@
 //   throw use:
+
 // try {
 //     const res = prompt('Are you a robot?');
 //     if(res === 'Y') {
@@ -9,6 +10,7 @@
 // } finally {
 
 // }
+
 //  try, caugh, finally use:
 
 try {
