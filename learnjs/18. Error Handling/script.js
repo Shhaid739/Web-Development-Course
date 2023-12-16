@@ -1,11 +1,11 @@
-
+//   throw use:
 // try {
 //     const res = prompt('Are you a robot?');
 //     if(res === 'Y') {
 //         throw new Error('Robot found')
 //     }
 // } catch (error) {
-//     console.log(error.name, error.message);
+//     console.log(error);
 // } finally {
 
 // }
