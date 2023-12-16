@@ -15,4 +15,4 @@ export {
 
 
 //can rename multiply by writing
-multiply as mul
+/multiply as mul
