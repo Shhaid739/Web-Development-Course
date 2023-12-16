@@ -1,5 +1,4 @@
 //   throw use:
-
 // try {
 //     const res = prompt('Are you a robot?');
 //     if(res === 'Y') {
@@ -11,8 +10,8 @@
 
 // }
 
-//  try, caugh, finally use:
 
+//  try, caugh, finally use:
 try {
     console.log('before the error')
     //const age = 12;
