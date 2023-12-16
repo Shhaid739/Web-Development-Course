@@ -13,7 +13,8 @@
 
 try {
     console.log('before the error')
-    const age = 12;
+    //const age = 12;
+    /age commented,error occured then directly run catch block
     console.log(age);
     console.log('after the error')
 } catch (err) {
