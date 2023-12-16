@@ -5,6 +5,31 @@ let students = [
     { id: "004", name: "Bakul", sports: "Basketball" },
     { id: "005", name: "Nikita", sports: "Hockey" },
 ];
+// FILTER
+//NOTE--curValue is parameter, can name different 
+//     should add return in map and filter 
+
+// const newArray = students.filter((curValue) => {
+//     if(curValue.id % 2 == 0) return true;                  //which we need is a return true statement
+//     else return false;
+// })
+
+// console.log("New Array here...")
+// console.log(newArray);
+
+
+//2nd way to write but not recommended
+// const newArray = [];
+
+// for(let i = 0; i<students.length; i++) {
+//     if(students[i].id%2 == 0) {
+//         newArray.push(students[i]);
+//     }
+// }
+
+
+// MAPS AND FILTER
+
 
 const names = students
     .filter((curValue) => curValue.sports === "Cricket")
@@ -18,18 +43,5 @@ const div = document.getElementById("container");
 
 div.innerHTML = `<ul>${names.join("")}</ul>`;
 
-// const newArray = [];
 
-// for(let i = 0; i<students.length; i++) {
-//     if(students[i].id%2 == 0) {
-//         newArray.push(students[i]);
-//     }
-// }
 
-// const newArray = students.filter((curValue) => {
-//     if(curValue.id % 2 == 0) return true;
-//     else return false;
-// })
-
-// console.log("New Array here...")
-// console.log(newArray);
