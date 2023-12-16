@@ -9,7 +9,7 @@
 // } finally {
 
 // }
-
+//  try, caugh, finally use:
 
 try {
     console.log('before the error')
