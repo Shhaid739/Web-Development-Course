@@ -29,6 +29,7 @@ body {
     transform: rotate(-180deg);
 }
 
+//collapse state
 .answer {
     color: #666;
     max-height: 0;
